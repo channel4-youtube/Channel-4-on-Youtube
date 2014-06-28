@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.icechannel.extn.channel.4.on.youtube" version="0.0.1" name="Channel 4 on Youtube" provider-name="channel4-youtube">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.istream" version="1.0"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />		
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">Channel 4 on Youtube</summary>
+		<description lang="en">Channel 4 on Youtube for IStream. Includes following Youtube channels: [CR] * Channel 4 [CR] * e4 [CR] * Comedy on 4 [CR] * Film 4 [CR] * Channel 4 News [CR] * Mashed [CR] * E4: Made in Chelsea [CR] * Docs on 4 [CR] * Channel 4: Hollyoaks [CR] * 4 Music [CR] * Channel 4 Racing</description>
+		<platform>all</platform>
+		<language></language>
+		<license>GPLv3</license>
+		<forum></forum>
+		<website>https://github.com/channel4-youtube/Channel-4-on-Youtube</website>
+		<source>https://github.com/channel4-youtube/Channel-4-on-Youtube</source>
+		<email>channel4.youtube@mail.com</email>
+    </extension>
+</addon>

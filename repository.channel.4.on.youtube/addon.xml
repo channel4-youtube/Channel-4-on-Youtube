@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.channel.4.on.youtube" name="Channel 4 on Youtube" version="1.0" provider-name="channel4-youtube">
+	<extension point="xbmc.addon.repository" name="repository.channel.4.on.youtube">
+		<info compressed="false">https://raw.githubusercontent.com/channel4-youtube/Channel-4-on-Youtube/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/channel4-youtube/Channel-4-on-Youtube/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/channel4-youtube/Channel-4-on-Youtube/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Channel 4 on Youtube</summary>
+		<description>Channel 4 on Youtube</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
